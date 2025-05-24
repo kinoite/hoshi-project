@@ -1,0 +1,14 @@
+# hoshi/Cargo.toml
+[workspace]
+members = [
+    "hoshipkg",
+    "webfetch",
+    "kaika",
+    "telescope",
+]
+resolver = "2"
+# Optional: Profile for faster development builds with optimized dependencies
+[profile.dev]
+opt-level = 1
+debug-assertions = true
+overflow-checks = true
