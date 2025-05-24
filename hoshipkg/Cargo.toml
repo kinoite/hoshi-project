@@ -1,0 +1,15 @@
+[package]
+name = "hoshipkg"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+webfetch = { path = "../webfetch" }
+kaika = { path = "../kaika" }
+clap = { version = "4.0", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+indicatif = "0.17"
+dialoguer = "0.11"
+dirs = "5.0"

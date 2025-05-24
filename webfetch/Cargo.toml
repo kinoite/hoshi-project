@@ -1,0 +1,19 @@
+# hoshi/webfetch/Cargo.toml
+[package]
+name = "webfetch"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "webfetch_cli"
+path = "src/main.rs"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json", "stream"] }
+tokio = { version = "1", features = ["full"] }
+futures-util = "0.3" # We only need the core Stream trait definition
+clap = { version = "4.0", features = ["derive"] }
+bytes = "1.0"

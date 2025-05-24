@@ -1,0 +1,13 @@
+[package]
+name = "kaika"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+tokio = { version = "1", features = ["fs", "io-util", "macros", "rt-multi-thread"] }
+tar = "0.4"
+flate2 = "1.0"
+zip = "0.6"
+bzip2 = { version = "0.4", features = ["tokio"] }
+xz2 = { version = "0.1", features = ["tokio"] }
