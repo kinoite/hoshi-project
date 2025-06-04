@@ -1,5 +1,5 @@
 > [!CAUTION]
-> webfetch will be deprecated and will be replaced with the much more performant, faster (dncli)[https://github.com/kinoite/dncli]
+> webfetch will be deprecated and will be replaced with the much more performant, faster [dncli](https://github.com/kinoite/dncli)
 
 # webfetch
 
