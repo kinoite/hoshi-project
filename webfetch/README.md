@@ -1,3 +1,6 @@
+> [!CAUTION]
+> webfetch will be deprecated and will be replaced with the much more performant, faster (dncli)[https://github.com/kinoite/dncli]
+
 # webfetch
 
 webfetch is a headless utility apart of the Hoshi Project which downloads files from the web
